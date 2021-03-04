@@ -32,7 +32,6 @@ const MapBox: React.FC<Map> = ({ width, height }) => {
         onViewportChange={(viewport: Viewport) => {
           setViewport(viewport);
         }}
-        mapStyle='mapbox://styles/sebastianchaca/ckhxnn0cb108j19mzjjtqalwu'
       >
         <Marker
           latitude={-34.5606284}
