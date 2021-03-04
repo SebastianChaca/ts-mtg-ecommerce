@@ -28,7 +28,7 @@ const MapBox: React.FC<Map> = ({ width, height }) => {
     <>
       <ReactMapGl
         {...viewport}
-        mapboxApiAccessToken='pk.eyJ1Ijoic2ViYXN0aWFuY2hhY2EiLCJhIjoiY2toeG0wMXB5MDU2ZTJ4cjBrN2gyNW5rayJ9.7LJ23mWutOFDffMFCStknA'
+        mapboxApiAccessToken='pk.eyJ1Ijoic2ViYXN0aWFuY2hhY2EiLCJhIjoiY2tmOGw1cndnMDludjJza2ZocDFkM24wZCJ9.-P6AySp4Yeochm3N7zpQOg'
         onViewportChange={(viewport: Viewport) => {
           setViewport(viewport);
         }}
