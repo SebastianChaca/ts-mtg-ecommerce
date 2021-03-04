@@ -27,7 +27,6 @@ const MenuDrop: React.FC<MenuD> = ({ username }) => {
         onClick={handleClick}
       >
         <div className='menudrop'>
-          {' '}
           <BiUserCircle className='login' />
           {username}
         </div>

@@ -741,6 +741,11 @@ Checkout
   padding-top: 5px;
   margin-bottom: 5px;
 }
+.login-dos {
+  height: 35px;
+  width: 35px;
+  padding-top: 10px;
+}
 .warningLogo {
   height: 60px;
   width: 60px;

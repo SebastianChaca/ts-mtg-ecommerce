@@ -55,7 +55,7 @@ export default function Header() {
             <li>
               {!isLogin && !jwt && (
                 <Link to='/login'>
-                  <BiUserCircle className='login' />
+                  <BiUserCircle className='login-dos' />
                   Login
                 </Link>
               )}
